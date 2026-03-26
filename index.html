@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML5 Boilerplate</title>
+    <link rel="stylesheet" href="my-cool-css.css">
+</head>
+<style>
+    /* CSS can go here */
+</style>
+<body>
+
+
+    <h1>Click an Album</h1>
+
+    <div id="album-list">
+
+        <div class="album" onclick="showInfo('greenday')">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Green_Day_-_Dookie_cover.jpg/250px-Green_Day_-_Dookie_cover.jpg"
+                alt="Dookie">
+            <p>Green Day — Dookie</p>
+        </div>
+
+        <div class="album" onclick="showInfo('blink182')">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Blink-182_-_Enema_of_the_State_cover.jpg/250px-Blink-182_-_Enema_of_the_State_cover.jpg"
+                alt="Enema of the State">
+            <p>Blink-182 — Enema of the State</p>
+        </div>
+
+        <div class="album" onclick="showInfo('nodoubt')">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/No_Doubt_-_Tragic_Kingdom.png/250px-No_Doubt_-_Tragic_Kingdom.png"
+                alt="Tragic Kingdom">
+            <p>No Doubt — Tragic Kingdom</p>
+        </div>
+
+    </div>
+
+    <!-- Info panel, shown when an album is clicked -->
+    <div id="info-panel">
+        <h2 id="info-title">Hello</h2>
+        <p id="info-fact"></p>
+    </div>
+
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
