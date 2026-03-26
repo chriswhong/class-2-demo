@@ -47,7 +47,9 @@ h1 {
 
 /* Highlight the selected album */
 .album.selected img {
-  border-color: #333;
+  border-color: #ffffff;
+  transform: scale(1.2);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 
 .album p {
